@@ -1,0 +1,12 @@
+.cartao {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.cartao__imagem {
+    grid-area: 1/1/4/2;
+}
+
+.cartao__botao {
+    grid-area: 1/3/4/4;
+}
